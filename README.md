@@ -1,8 +1,20 @@
-# React + Vite
+# Commic UI - Web App for Generating Images
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Link for website.
 
-Currently, two official plugins are available:
+[CommicUI](https://zenitsuxdemon.github.io/DashToon-Comic/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Functionalities
+  - Create Image with Text.
+  - Speech Recognition to Text.
+  - Delete and Downloading option available for every images.
+  - Responsive UI.
+
+## Start Project
+- Go to Root Directory .
+```
+    npm install 
+```
+```
+    npm run dev.
+```
