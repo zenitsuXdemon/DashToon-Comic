@@ -72,7 +72,7 @@ const App = () => {
   const [text,setText] = useState("");
   const [images,setImages] = useState([]);
 
-  const dummy_images = ["../public/img/image1.png","../public/img/image2.png","../public/img/image3.jpeg"]
+  const dummy_images = ["https://i.ibb.co/0t0Xwpb/image1.png","https://i.ibb.co/940DwZD/image2.png","https://i.ibb.co/MM1M2FX/image3.jpg"]
   
   const [loading,setLoading] = useState(false);
   const ButtonStyle = { margin: "0px 50px" }; 
@@ -152,7 +152,7 @@ return (
       : <div>Enter Description to display Images</div>      
     }
     <br />
-    {/* {dummy_images ?<Box sx={{display:'flex',flexWrap:'wrap',justifyContent:"center",gap:2}}>
+    {dummy_images ?<Box sx={{display:'flex',flexWrap:'wrap',justifyContent:"center",gap:2}}>
         
         {dummy_images.map((res)=>{
         return (<Card sx={{minWidth:'275'}} variant='outlined'>
@@ -165,7 +165,7 @@ return (
       
       </Box>
       : <div>Enter Description to display Images</div>      
-    } */}
+    }
   </div>
   )
 }
